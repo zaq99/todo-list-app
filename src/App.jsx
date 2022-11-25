@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import InputUser from './component/InputUser'
+import Kartu from './component/Kartu'
+import Card from './component/card'
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
   return (
     <>
       <InputUser />
+      <Kartu />
+      <Card />
     </>
   )
 }
