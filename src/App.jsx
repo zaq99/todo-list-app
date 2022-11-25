@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import InputUser from './component/InputUser'
-import Kartu from './component/Kartu'
-import Card from './component/card'
+import ListKartu from './component/ListKartu'
+import Selected from './component/Selected'
 
 
 function App() {
@@ -10,9 +10,11 @@ function App() {
 
   return (
     <>
-      <InputUser />
-      <Kartu />
-      <Card />
+      <div className='container mx-auto text-center'>
+        <InputUser />
+        <Selected />
+        <ListKartu />
+      </div>
     </>
   )
 }
