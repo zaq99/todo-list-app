@@ -11,8 +11,6 @@ const Kartu = (props) => {
 
     useEffect(() => {
         setShow(show)
-
-        console.log('ada yg berubah nih')
     });
 
     const ToggleData = () => {
