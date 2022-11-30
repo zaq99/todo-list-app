@@ -46,7 +46,7 @@ const InputUser = (props) => {
                         onChange={(e) => handleChange(e)}
                         value={todo}
                         className="w-1/4 border border-stone-500 p-2 rounded-lg" placeholder="aku ingin..." autoFocus />
-                    <button onClick={() => add()} className="px-4 py-2 bg-red-500 rounded-lg text-white">Tambah</button>
+                    <button onClick={() => add()} className="px-4 py-2 bg-red-500 hover:bg-red-700 rounded-lg text-white">Tambah</button>
                 </div>
             </div>
         </>

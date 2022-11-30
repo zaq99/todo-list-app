@@ -29,11 +29,11 @@ const ListKartu = (props) => {
     return (
         <>
             <div className="flex justify-center w-1/3  mx-auto mt-10 gap-4">
-                <button className="py-1 px-5 rounded-full bg-sky-400 text-white"
+                <button className="py-1 px-5 rounded-full bg-stone-300 hover:bg-sky-400 text-white"
                     onClick={() => setSort("all")}>Semua</button>
-                <button className="py-1 px-5 rounded-full bg-sky-400 text-white"
+                <button className="py-1 px-5 rounded-full bg-stone-300 hover:bg-sky-400 text-white"
                     onClick={() => setSort("active")}>Aktif</button>
-                <button className="py-1 px-5 rounded-full bg-sky-400 text-white"
+                <button className="py-1 px-5 rounded-full bg-stone-300 hover:bg-sky-400 text-white"
                     onClick={() => setSort("completed")}>Selesai</button>
             </div>
 
