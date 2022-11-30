@@ -37,7 +37,7 @@ const ListKartu = (props) => {
                     onClick={() => setSort("completed")}>Selesai</button>
             </div>
 
-            <div className="mt-5 flex flex-col gap-2 justify-center w-2/5 mx-auto">
+            <div className="mt-5 flex flex-col gap-2 justify-center w-5/6 lg:w-2/5 mx-auto">
                 {props.todos.length > 0 && sort === "active"
                     ? props.todos.map((item) => {
                         return (

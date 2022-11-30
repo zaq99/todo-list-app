@@ -39,13 +39,13 @@ const InputUser = (props) => {
     return (
         <>
             <div className="flex flex-col justify-center text-center mt-20">
-                <h1 className="text-3xl font-semibold">Apa rencanamu hari ini ?</h1>
+                <h1 className="text-xl lg:text-3xl font-semibold">Apa rencanamu hari ini ?</h1>
                 <div className="mt-5 flex flex-row justify-center items-center gap-4">
                     <input
                         type="text"
                         onChange={(e) => handleChange(e)}
                         value={todo}
-                        className="w-1/4 border border-stone-500 p-2 rounded-lg" placeholder="aku ingin..." autoFocus />
+                        className="lg:w-1/4 border border-stone-500 p-2 rounded-lg" placeholder="aku ingin..." autoFocus />
                     <button onClick={() => add()} className="px-4 py-2 bg-red-500 hover:bg-red-700 rounded-lg text-white">Tambah</button>
                 </div>
             </div>
